@@ -64,6 +64,7 @@ font-family: 'Julius Sans One', sans-serif;
   font-size:2em;
   margin-bottom: 2em;
   color:gray;
+  margin-left:15%;
 }
 .Name{
   color:black;
@@ -164,6 +165,65 @@ color:#FE19A6;
   font-family: 'Julius Sans One', sans-serif;
   color:gray;
 }
+
+/*----HOVER TEXTS STYLE----*/
+#work1 .testText{
+  color:white;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  display:none;
+}
+#work1:hover .testText{
+  display:block;
+}
+/*---- WORK1 END----*/
+
+#work2 .testText{
+  color:pink;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  display:none;
+}
+#work2:hover .testText{
+  display:block;
+}
+/*---- WORK2 END----*/
+
+#work3 .testText{
+  color:white;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  display:none;
+}
+#work3:hover .testText{
+  display:block;
+}
+/*---- WORK3 END----*/
+
+#work4 .testText{
+  color:white;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  display:none;
+}
+#work4:hover .testText{
+  display:block;
+}
+/*---- WORK4 END----*/
+
+#work5 .testText{
+  color: #88F9D4;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  display:none;
+}
+#work5:hover .testText{
+  display:block;
+}
+/*---- WORK5 END----*/
+
+
+
 /*********** END WORKS *************/
 .skills{
   border-bottom:1px lightgray solid;
@@ -236,10 +296,7 @@ footer{
 border-top:1px solid lightgray;
 background-color:gray;
 }
-.follow img{
-  padding-top:2em;
-  margin:auto;
-}
+
 .quote{
   font-family:impact;
   font-size:1.6em;
@@ -249,10 +306,13 @@ background-color:gray;
 .thanks{
   color:white;
   font-family:;
-  padding-bottom:1em;
+}
+footer{
+  overflow-y: hidden;
 }
 footer p {
 margin-top:4px;
+padding-top:5px;
 color:lightgray;
 text-align:center;
 font-family: 'Julius Sans One', sans-serif;
@@ -263,14 +323,62 @@ color:pink;
 }
 
 @media (max-width: 320px) {
-  .work1,.work2,.work3,.work4,.work5{
-    text-decoration: none;
-  }
   .btn-light:hover{
     background-color:pink;
     color:black;
   }
 }
+#social a{
+  display:flex;
+}
+ul li{
+display:inline-block;
+float:left;
+}
+
+/* Socia media tesing */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width:54px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-bottom: .8em;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: #a4c639;
+  color: white;
+}
+
+
+
+
+
 /* Google Fonts
 <link href="https://fonts.googleapis.com/css?family=Anton|Cinzel|Josefin+Slab|Julius+Sans+One|Lobster+Two|Sacramento" rel="stylesheet">
 
